@@ -3,7 +3,7 @@
  */
 var io = require('socket.io-client'),
     socket = io.connect('http://localhost:8080');
-
+//NOTE: Port must be specified! Otherwise return 503 errors
 
 socket.on('connect', function () {
     console.log("socket connected");

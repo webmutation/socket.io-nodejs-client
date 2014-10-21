@@ -1,5 +1,7 @@
 {
-    "name": "application-name",
+    "name": "socket.io-nodejs-client",
+    "author": "Daniel Duarte Mendes",
+    "repository": "https://github.com/webmutation/socket.io-nodejs-client.git",
     "version": "0.0.1",
     "dependencies": {
         "socket.io-client": ">=1.0.0"
